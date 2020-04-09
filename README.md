@@ -1,5 +1,5 @@
 # Get on argon
-1. Take the intro quiz
+1. [Take the intro quiz](quiz.md)
 2. Get yourself PuTTy
 3. Run putty.
 4. Login with “hawkid@argon.hpc.uiowa.edu” port 40. It will require 2 factor.
