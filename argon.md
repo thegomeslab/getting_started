@@ -1,7 +1,7 @@
 # Table of Contents
 1. [Getting an Account on Argon](#getting-an-account-on-argon)
-2. [Accessing Argon][#accessing-argon]
-3. [Job Submission][#job-submission]
+2. [Accessing Argon](#accessing-argon)
+3. [Job Submission](#job-submission)
 4. [Port Forwarding on Argon](#port-forwarding-on-argon)
 
 # Getting an Account on Argon
