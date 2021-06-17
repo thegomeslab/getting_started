@@ -57,10 +57,10 @@ Jupyter notebooks are nice in that they give a file manager and persistant calcu
 3.	Make a forwarding connection between your laptop and a specific Argon login node. Use the command `ssh -L 1111:localhost:1111 -p 40 hawkid@argon-login-1.hpc.uiowa.edu`
 4.	Create/re-join a screen `screen -x` or `screen`
 5.	Once inside the screen, get a CPU/GPU node depending on what you want to do `qlogin -q UI …` and note the compute node address that you join. For example, “argon-itf-bx47-22”
-6.	On the compute node, activate your conda environment and run a jupyter notebook instance from your home directory `conda activate ax` `jupyter notebook --no-browser --port=1111`. It should print some text to the screen like “The Jupyter notebook is running at http://localhost:1111/...”. Copy that entire address.`
+6.	On the compute node, activate your conda environment and run a jupyter notebook instance from your home directory `conda activate ax` `jupyter notebook --no-browser --port=1111`. It should print some text to the screen like “The Jupyter notebook is running at `http://localhost:1111/...`. Copy that entire address.`
 7.	Create a new window within the screen `C-a c`
 8.	Make a forwarding connection between the login node (where you started your screen) and the computer note. Make sure to run this command from the same node that you logged into in step 2 `ssh -L 1111:localhost:1111 hawkid@argon-itf-bx47-22`
-9.	Copy the address “http://localhost:9876/...” into a web browser on your laptop. You should see a list of files that looks like your home directory.
+9.	Copy the address `http://localhost:1111/...` into a web browser on your laptop. You should see a list of files that looks like your home directory.
 10.	Navigate to the location of the ipynb file and click to open it.
 11.	You can run individual computation cell by clicking on it and pressing “Shift+Enter” or run the entire notebook as you would a script by using the menu at the top of the screen “Kernel > Restart and Run All”.
 
