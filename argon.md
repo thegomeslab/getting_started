@@ -64,4 +64,4 @@ Jupyter notebooks are nice in that they give a file manager and persistant calcu
 - `10.	Navigate to the location of the ipynb file and click to open it.`
 - `11.	You can run individual computation cell by clicking on it and pressing “Shift+Enter” or run the entire notebook as you would a script by using the menu at the top of the screen “Kernel > Restart and Run All”. `
 
-Now, for some simple models it should be fine to run Jupyter on a login node. Then, you would run steps 1,2, 5, and 8. Perhaps the first time you do this, just run those steps just to see how it goes. Once you run through the entire set of commands, close your computer, and want to come back, you should be able to just repeat steps 1-3 and 8 assuming that your screen is still open and the compute node job you started is also running.
+Once you run through the entire set of commands, if close your computer and want to come back, you should be able to just repeat steps 1-3 and 8 assuming that your screen is still open and the compute node job you started is also running.
